@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MyUtils"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "MyUtils are my common tools"
 
   # This description is used to generate tags and improve search results.
@@ -125,6 +125,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
+  s.ios.vendored_frameworks = 'MyUtils.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
